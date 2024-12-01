@@ -36,7 +36,6 @@ class ApiTest {
     @Test
     fun `updateProducto should update stock for an existing product`() {
         val product = api.getProducts().data!!.first() // Tomamos el primer producto
-        val nuevoStock = 50
         val response = api.updateProduct(product)
         assertEquals(200, response.code)
         assertEquals("Product was successfully updated", response.message)
@@ -55,7 +54,7 @@ class ApiTest {
         assertEquals(200, response.code)
         assertNotNull(response.data)
         assertTrue(response.data!! != null, "Debería encontrar productos coincidentes")
-        //assertTrue(response.data.name.contains("Le"))
+
     }
 
     @Test
