@@ -9,7 +9,7 @@ import java.lang.Exception
 
 class UsersRetriever {
 
-    private val apiService = RetrofitClient.instance.create(UserService::class.java)
+    var apiService = RetrofitClient.instance.create(UserService::class.java)
 
     sealed class ApiException(message: String) : Exception(message) {
         class NetworkException(message: String) : ApiException(message)

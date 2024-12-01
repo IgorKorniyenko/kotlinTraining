@@ -1,0 +1,10 @@
+Analizador de Archivos
+Contexto: Tu aplicación necesita analizar un archivo de texto con registros de usuarios, donde cada línea contiene nombre, edad, ciudad.
+
+Tarea: Escribe un programa que:
+
+Lea un archivo línea por línea.
+Convierta cada línea en una data class Usuario.
+Filtre usuarios mayores de 18 años.
+Genere un informe con el conteo de usuarios por ciudad.
+Bonus: Usa extensiones para agregar funciones útiles a la clase File
