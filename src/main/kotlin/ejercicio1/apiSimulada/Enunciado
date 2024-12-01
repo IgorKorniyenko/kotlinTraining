@@ -1,0 +1,8 @@
+Contexto: Una tienda en línea necesita un sistema para manejar su inventario.
+
+Tarea: Crea una lista mutable de productos, donde cada producto es una data class con propiedades como id, nombre, precio, y stock. Implementa las siguientes funciones:
+
+Mostrar todos los productos.
+Agregar un nuevo producto.
+Actualizar el stock de un producto dado su id.
+Buscar productos cuyo nombre contenga un texto específico.

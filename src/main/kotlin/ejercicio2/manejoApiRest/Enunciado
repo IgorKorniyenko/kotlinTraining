@@ -1,0 +1,7 @@
+Escenario: Una aplicación necesita mostrar información de usuarios obtenida de una API REST.
+
+Tarea:
+
+Simula una función que realice una petición HTTP para obtener datos de usuarios en formato JSON (puedes usar datos mock).
+Parsea el JSON en una lista de objetos Usuario usando una librería como Gson o Kotlinx.serialization.
+Imprime el nombre y correo de cada usuario en consola.

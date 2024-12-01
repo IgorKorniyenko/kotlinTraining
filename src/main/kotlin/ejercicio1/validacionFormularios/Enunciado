@@ -1,0 +1,10 @@
+Escenario: Estás desarrollando una app que tiene un formulario de registro. Necesitas validar los datos ingresados por el usuario.
+
+Tarea:
+
+Crea una función que valide el nombre, correo y contraseña ingresados.
+Reglas:
+El nombre debe tener al menos 3 caracteres.
+El correo debe contener un "@".
+La contraseña debe tener al menos 8 caracteres.
+Devuelve un mapa con los errores encontrados o un mensaje de éxito.
