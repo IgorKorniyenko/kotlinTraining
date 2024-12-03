@@ -3,7 +3,7 @@
 3, Pedro, pedro@mail.com, 23/07/1985, Barcelona-España, Médico
 4, Ana, ana@mail.com, 15/03/1995, Valencia-España, Abogada
 5, Luis, luis@mail.com, 30/09/1988, Sevilla-España, Arquitecto
-, Laura, laura@mail.com, 08/06/1992, Bilbao-España, Profesora
+6, Laura, laura@mail.com, 08/06/1992, Bilbao-España, Profesora
 7, Carlos, carlos@mail.com, 19/01/1983, Zaragoza-España, Ingeniero Civil
 8, Elena, elena@mail.com, 25/12/1996, Málaga-España, Enfermera
 9, Javier, javier@mail.com, 03/08/1987, Granada-España, Contador
