@@ -1,0 +1,56 @@
+Filtrado y Agrupación de Datos
+Escenario: Tienes una lista de transacciones de un sistema bancario y necesitas analizarlas.
+
+Tarea:
+
+Crea una clase Transaccion con propiedades id, monto, y categoria.
+Escribe una función que reciba una lista de transacciones y:
+Filtre las transacciones con un monto mayor a 1000.
+Agrupe las transacciones por categoría.
+Devuelva el total de montos por categoría.
+
+
+Tareas Extendidas
+Filtrar y Agrupar (Enunciado Original):
+
+Filtra las transacciones con un monto mayor a 1000.
+Agrupa las transacciones por categoría.
+Devuelve el total de montos por categoría.
+Agregar Estadísticas de Transacciones:
+
+Calcula el monto promedio por categoría.
+Encuentra la transacción con el monto más alto y más bajo dentro de cada categoría.
+Determina cuántas transacciones hay por categoría.
+Ordenar y Limitar Resultados:
+
+Ordena las transacciones por monto de forma descendente.
+Obtén las 5 transacciones más grandes.
+Obtén las 5 transacciones más pequeñas.
+Transformación de Datos:
+
+Crea una lista que contenga solo los IDs de las transacciones cuyo monto sea mayor a 2000.
+Genera un mapa donde las claves sean las categorías y los valores sean listas de IDs de las transacciones correspondientes.
+Convierte todas las transacciones a una representación de texto con el formato: "Transacción {ID}: {Categoría} - ${Monto}".
+Reducción de Datos:
+
+Calcula el monto total de todas las transacciones en la lista.
+Encuentra el monto promedio global.
+Verifica si todas las transacciones en la lista tienen un monto mayor a 0.
+Operaciones Personalizadas:
+
+Filtra las transacciones que pertenecen a una categoría específica dada por el usuario (por ejemplo, "ALIMENTACION").
+Calcula el porcentaje del monto total que representa cada categoría en relación al monto global de todas las transacciones.
+Identifica si existe alguna categoría que no tiene ninguna transacción asociada.
+Interacción Compleja:
+
+Crea una función que permita buscar transacciones por rango de montos (min y max) definidos por el usuario.
+Implementa una función que agrupe las transacciones en dos listas: "Altas" (monto > 2000) y "Bajas" (monto <= 2000).
+Estadísticas Históricas:
+
+Simula que cada transacción tiene una fecha (puedes usar LocalDate) y agrúpalas por mes.
+Calcula el monto total de las transacciones en cada mes.
+Encuentra el mes con el mayor monto acumulado.
+Datos Sintéticos:
+
+Genera automáticamente 100 transacciones con montos y categorías aleatorias.
+Permite filtrar estas transacciones simuladas con las mismas funciones anteriores.
